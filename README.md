@@ -88,7 +88,7 @@ function setup(){
 
 function draw(){
 	drawPoint();
-}
+} 
 
 // We moved everything to this custom function that
 // will be trigger only when the map moves
