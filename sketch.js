@@ -1,44 +1,3 @@
-# Interactive Maps with Mappa, Leaflet, and GeoJSON
-
-## Introduction
-This example uses the libraries Mappa.js and Leaflet.js together with a GeoJSON data file to construct an interactive map that is visualized with the use of P5.js.
-
----
-
-## GeoJSON
-
-GeoJSON is a format for encoding a variety of geographic data structures, as the following example, that contains various values important for a map system, such as name of location and coordinates:
-
-```JavaScript
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [125.6, 10.1]
-  },
-  "properties": {
-    "name": "Dinagat Islands"
-  }
-}
-```
-
-To easily develop a GeoJSON file, the website [geojson.io](geojson.io) offers options for creating, viewing, and sharing maps using the GeoJSON data format, amongst others (such as GPX, CSV, and so on). The picture below demonstrates how the selected map points are translated to GeoJSON format, which can be saved in a file and used in our project.
-
-<p align="center">
-<img alt="mLabCreateNewDeployment" src="assets/geojson.png" width="480" />
-</p>
-
----
-
-## Mappa, Leaflet, P5
-
-[Mappa](https://mappa.js.org) is a library to facilitate work between the canvas element and existing map libraries and APIs. It provides a set of tools for working with static maps, interactive tile maps and geo-data among other tools useful when building geolocation-based visual representations.
-
-To access the properties of the library, make sure that you include it in your project (in this example it is in the **libraries** folder). Mappa provides access to a range of other location API systems. Here, we will be using [Leaflet.js](https://leafletjs.com/examples/geojson/)
-
-The following example uses the Mappa and Leaflet map systems to visualize on an interactive map the data stored in the GeoJSON file we created. In addition, we are using the P5.js library to create additional interactions with this information.
-
-```JavaScript
 //Initialize variables
 var myMap;
 var canvas;
@@ -130,4 +89,3 @@ function distancePlace(x, y, r, g, b){
 	strokeWeight(strokeWeightMap);
 	line(mouseX, mouseY, x, y);
 }
-```

@@ -1,0 +1,9 @@
+{
+  "type":"FeatureCollection","features":
+  [
+    {"type":"Feature","properties":{},"name":"i-DAT","mood":"Pride","r":255,"g":0,"b":255,"geometry":{"type":"Point","coordinates":[-4.138916730880737,50.37400933958533]}},
+    {"type":"Feature","properties":{},"name":"Drake Circus","mood":"Envy","r":0,"g":255,"b":0,"geometry":{"type":"Point","coordinates":[-4.139056205749512,50.373023999741406]}},
+    {"type":"Feature","properties":{},"name":"North Cross","mood":"Sloth","r":0,"g":255,"b":255,"geometry":{"type":"Point","coordinates":[-4.142618179321289,50.375446256841954]}},
+    {"type":"Feature","properties":{},"name":"Armada Way","mood":"Gluttony","r":255,"g":255,"b":0,"geometry":{"type":"Point","coordinates":[-4.142618179321289,50.37335]}}
+  ]
+}
