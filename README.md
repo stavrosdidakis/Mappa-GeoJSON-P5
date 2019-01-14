@@ -46,7 +46,12 @@ var mappa = new Mappa('Leaflet');
 var geoJSON, geoJSONlength;
 
 //Initialize arrays to store the GeoJSON values
-var loc = [], lat = [], lon = [], r = [], g = [], b = [];
+var loc = [],
+		lat = [],
+		lon = [],
+		r = [],
+		g = [],
+		b = [];
 
 var sizeCircle = 80;
 
@@ -88,7 +93,7 @@ function setup(){
 
 function draw(){
 	drawPoint();
-} 
+}
 
 // We moved everything to this custom function that
 // will be trigger only when the map moves
@@ -126,3 +131,9 @@ function distancePlace(x, y, r, g, b){
 	line(mouseX, mouseY, x, y);
 }
 ```
+
+To execute the code, it is recommended that you use Atom. Add the project folder on Atom, and use Atom Live Server, under the Packages. If you don't have Atom Live Server, make sure that you install it as a dependency. Starting the server, the following screen will appear on your web browser:
+
+<p align="center">
+<img alt="mLabCreateNewDeployment" src="assets/finalScreen.png" width="480" />
+</p>

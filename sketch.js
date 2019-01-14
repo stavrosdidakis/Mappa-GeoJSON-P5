@@ -5,12 +5,7 @@ var mappa = new Mappa('Leaflet');
 var geoJSON, geoJSONlength;
 
 //Initialize arrays to store the GeoJSON values
-var loc = [],
-		lat = [],
-		lon = [],
-		r = [],
-		g = [],
-		b = [];
+var loc = [], lat = [], lon = [], r = [], g = [], b = [];
 
 var sizeCircle = 80;
 
