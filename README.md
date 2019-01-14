@@ -25,7 +25,7 @@ GeoJSON is a format for encoding a variety of geographic data structures, as the
 To easily develop a GeoJSON file, the website [geojson.io](geojson.io) offers options for creating, viewing, and sharing maps using the GeoJSON data format, amongst others (such as GPX, CSV, and so on). The picture below demonstrates how the selected map points are translated to GeoJSON format, which can be saved in a file and used in our project.
 
 <p align="center">
-<img alt="mLabCreateNewDeployment" src="assets/geojson.png" width="480" />
+<img alt="GeoJSON" src="assets/geojson.png" width="480" />
 </p>
 
 ---
@@ -135,5 +135,5 @@ function distancePlace(x, y, r, g, b){
 To execute the code, it is recommended that you use Atom. Add the project folder on Atom, and use Atom Live Server, under the Packages. If you don't have Atom Live Server, make sure that you install it as a dependency. Starting the server, the following screen will appear on your web browser:
 
 <p align="center">
-<img alt="mLabCreateNewDeployment" src="assets/finalScreen.png" width="480" />
+<img alt="Final Screen" src="assets/finalScreen.png" width="480" />
 </p>
