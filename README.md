@@ -1,7 +1,7 @@
 # Interactive Maps with Mappa, Leaflet, and GeoJSON
 
 ## Introduction
-This example uses the libraries Mappa.js and Leaflet.js together with a GeoJSON data file to construct an interactive map that is visualized with the use of P5.js.
+This example uses the libraries Mappa.js and Leaflet.js together with a GeoJSON data file to construct an interactive map implemented in P5.js.
 
 ---
 
